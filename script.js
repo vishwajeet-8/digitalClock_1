@@ -46,7 +46,7 @@ let digitalClock12hr = () => {
     let amPm = hours<12 ? "AM" : "PM"
     let monthsName = ["jan", "feb", "march", "april", "may", "june", "july", "aug", "sep", "oct", "nov", "dec"]
     let monthName = monthsName[time.getMonth()]
-    let weeksName = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+    let weeksName = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
     let weekName = weeksName[time.getDay()]
 
     let clk_elem = document.getElementById("clock");
